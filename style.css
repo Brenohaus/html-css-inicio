@@ -1,0 +1,53 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#foto_perfil{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+body {
+    background: azure;
+    max-width: 900px; /*mantem a largura maxima do body em 900px */
+    margin: auto; /*delimita uma margem automatica de ambos os lados */
+}
+#title, .subtitle, .post_title {
+    color: rgb(14, 14, 255);
+}
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post {
+    background: rgb(180, 219, 255);
+    padding: 15px;
+    border: 2px solid rgb(14, 14, 255);
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+
+}
+.post_img {
+    width: 100%; /* faz com que a imagem tenha 100% do valor do seu container respeitando paddings */
+    height: 360px;
+    margin-bottom: 15px;
+}
+
+.contacts_list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+.contacts_list li a {
+    text-decoration: none;
+    color: rgb(14, 14, 255);
+}
